@@ -4,12 +4,24 @@ const Navbar = () => (
   <header className='bg-gray fixed top-0 w-screen h-navbar'>
     <div className='flex justify-center md:justify-start items-center container h-full mx-auto'>
       <Link to='home' spy={true} smooth={true} duration={500}>
-        <img src='/static/images/logot.png' className='h-10 mx-4' alt="data logo" />
+        <img
+          src='/static/images/logot.png'
+          className='h-10 mx-4'
+          alt='data logo'
+          style={{ cursor: 'pointer' }}
+        />
       </Link>
       <span className='hidden md:block flex-grow' />
       <ul className='hidden md:flex items-center text-white text-2xl'>
         <li className='px-4'>
-          <Link to='sobre' spy={true} smooth={true} duration={500} offset={-55}>
+          <Link
+            to='sobre'
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-55}
+            style={{ cursor: 'pointer' }}
+          >
             sobre
           </Link>
         </li>
@@ -20,6 +32,7 @@ const Navbar = () => (
             smooth={true}
             duration={500}
             offset={-55}
+            style={{ cursor: 'pointer' }}
           >
             frentes
           </Link>
@@ -31,6 +44,7 @@ const Navbar = () => (
             smooth={true}
             duration={500}
             offset={-55}
+            style={{ cursor: 'pointer' }}
           >
             contato
           </Link>
@@ -47,7 +61,7 @@ const Navbar = () => (
       }
 
       li:hover {
-        color: #aeaeb6;
+        color: #dadadc;
       }
     `}</style>
   </header>
