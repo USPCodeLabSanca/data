@@ -22,7 +22,7 @@ const Head = props => (
       sizes='16x16'
       href='/static/favicon/favicon-16x16.png'
     />
-    <link rel='manifest' href='/static/favicon/manifest.json' />
+    <link rel='manifest' href='/static/manifest.json' />
     <link
       rel='mask-icon'
       href='/static/favicon/safari-pinned-tab.svg'
