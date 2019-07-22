@@ -2,11 +2,13 @@
   --color-primary: #7fd3f5;
   --color-secondary: #f17fbd;
   --color-gray: #27272f;
+  --color-white: #fafafa;
 }
 
 body {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   color: var(--color-gray);
+  background-color: var(--color-white);
 }
 
 /* background colors */
@@ -22,6 +24,10 @@ body {
   background-color: var(--color-gray);
 }
 
+.bg-white {
+  background-color: var(--color-white) !important;
+}
+
 /* text colors */
 .text-primary {
   color: var(--color-primary);
@@ -33,6 +39,10 @@ body {
 
 .text-gray {
   color: var(--color-gray);
+}
+
+.text-white {
+  color: var(--color-white) !important;
 }
 
 /* border-colors */
