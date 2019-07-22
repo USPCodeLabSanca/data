@@ -37,7 +37,6 @@ const Head = props => (
       content='/static/favicon/browserconfig.xml'
     />
     <meta name='theme-color' content='#ffffff' />
-    <meta http-equiv="Content-Language" content="pt-br" />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link rel='stylesheet' href='/static/styles/tailwind.min.css' />
     <link rel='stylesheet' href='/static/styles/style.css' />

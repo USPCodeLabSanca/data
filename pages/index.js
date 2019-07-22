@@ -7,8 +7,15 @@ const Home = () => (
     <Head />
     <Navbar />
     <main>
-      <div className='container mx-auto flex flex-col items-center justify-center px-4 h-screen pt-navbar' id='home'>
-        <img src='/static/images/logot.png' className='h-image my-2' alt="data logo" />
+      <div
+        className='container mx-auto flex flex-col items-center justify-center px-4 h-screen pt-navbar'
+        id='home'
+      >
+        <img
+          src='/static/images/logot.png'
+          className='h-image my-2'
+          alt='data logo'
+        />
         <div className='text-gray text-center my-2'>
           <h1 className='text-5xl md:text-6xl font-bold'>data</h1>
           <h2 className='text-xl md:text-2xl'>
@@ -73,6 +80,9 @@ const Home = () => (
         <form className='pb-12'>
           <div className='flex flex-col md:flex-row'>
             <div className='w-full md:w-1/2 mr-0 md:mr-4'>
+              <label for='nome' style={{ fontSize: '0px' }}>
+                nome
+              </label>
               <input
                 className='w-full text-xl md:text-2xl font-bold border border-solid border-gray mb-6 p-4 form-control'
                 id='nome'
@@ -80,6 +90,9 @@ const Home = () => (
                 name='nome'
                 placeholder='nome'
               />
+              <label for='email' style={{ fontSize: '0px' }}>
+                email
+              </label>
               <input
                 className='w-full text-xl md:text-2xl font-bold border border-solid border-gray mb-6 p-4 form-control'
                 id='email'
@@ -87,6 +100,9 @@ const Home = () => (
                 name='email'
                 placeholder='email'
               />
+              <label for='assunto' style={{ fontSize: '0px' }}>
+                assunto
+              </label>
               <input
                 className='w-full text-xl md:text-2xl font-bold border border-solid border-gray mb-6 p-4 form-control'
                 id='assunto'
@@ -96,6 +112,9 @@ const Home = () => (
               />
             </div>
             <div className='mb-6 md:w-1/2'>
+              <label for='mensagem' style={{ fontSize: '0px' }}>
+                mensagem
+              </label>
               <textarea
                 className='h-px w-full text-xl md:text-2xl font-bold border border-solid border-gray p-4 form-control'
                 id='mensagem'
