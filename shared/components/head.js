@@ -40,7 +40,6 @@ const Head = props => (
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link rel='stylesheet' href='/static/styles/tailwind.min.css' />
     <link rel='stylesheet' href='/static/styles/style.css' />
-    <link href='/static/webfonts/roboto/stylesheet.css' rel='stylesheet' />
   </HeadNext>
 );
 
