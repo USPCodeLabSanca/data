@@ -21,8 +21,9 @@ const Navbar = () => (
             duration={500}
             offset={-55}
             style={{ cursor: 'pointer' }}
+            className='ff-secondary'
           >
-            sobre
+            Sobre
           </Link>
         </li>
         <li className='px-4'>
@@ -33,8 +34,9 @@ const Navbar = () => (
             duration={500}
             offset={-55}
             style={{ cursor: 'pointer' }}
+            className='ff-secondary'
           >
-            frentes
+            Frentes
           </Link>
         </li>
         <li className='px-4'>
@@ -45,8 +47,9 @@ const Navbar = () => (
             duration={500}
             offset={-55}
             style={{ cursor: 'pointer' }}
+            className='ff-secondary'
           >
-            contato
+            Contato
           </Link>
         </li>
       </ul>

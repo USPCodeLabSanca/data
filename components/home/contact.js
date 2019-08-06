@@ -50,9 +50,9 @@ const Contact = () => (
         </div>
         <button
           type='submit'
-          className='w-full button bg-primary text-white text-xl md:text-2xl font-bold p-4'
+          className='w-full button bg-primary text-white text-lg md:text-xl font-bold p-4 ff-secondary'
         >
-          enviar
+          ENVIAR
         </button>
       </form>
     </div>

@@ -11,6 +11,10 @@ body {
   background-color: var(--color-white);
 }
 
+.ff-secondary {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* background colors */
 .bg-primary {
   background-color: var(--color-primary);

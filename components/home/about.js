@@ -3,7 +3,7 @@ const About = () => (
     <div className='bg-primary text-center text-white' id='sobre'>
       <div className='container mx-auto px-4'>
         <h3 className='text-5xl md:text-6xl font-bold py-4'>sobre</h3>
-        <p className='text-xl md:text-2xl pb-12'>
+        <p className='text-xl md:text-2xl pb-12 ff-secondary'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at mi
           in enim gravida sollicitudin. Nunc quis fringilla ipsum. Mauris eros
           lorem, convallis nec fermentum nec, pellentesque ac ligula. Integer
