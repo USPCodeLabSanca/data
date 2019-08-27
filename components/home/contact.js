@@ -1,11 +1,11 @@
 const Contact = () => (
   <React.Fragment>
     <div className='container mx-auto px-4 text-center' id='contato'>
-      <h3 className='text-5xl md:text-6xl font-bold py-4'>contato</h3>
+      <h3 className='text-5xl md:text-6xl font-bold py-4'>Contato</h3>
       <form className='pb-12'>
         <div className='flex flex-col md:flex-row'>
           <div className='w-full md:w-1/2 mr-0 md:mr-4'>
-            <label for='nome' style={{ fontSize: '0px' }}>
+            <label htmlFor='nome' style={{ fontSize: '0px' }}>
               nome
             </label>
             <input
@@ -15,7 +15,7 @@ const Contact = () => (
               name='nome'
               placeholder='nome'
             />
-            <label for='email' style={{ fontSize: '0px' }}>
+            <label htmlFor='email' style={{ fontSize: '0px' }}>
               email
             </label>
             <input
@@ -25,7 +25,7 @@ const Contact = () => (
               name='email'
               placeholder='email'
             />
-            <label for='assunto' style={{ fontSize: '0px' }}>
+            <label htmlFor='assunto' style={{ fontSize: '0px' }}>
               assunto
             </label>
             <input
@@ -37,7 +37,7 @@ const Contact = () => (
             />
           </div>
           <div className='mb-6 md:w-1/2'>
-            <label for='mensagem' style={{ fontSize: '0px' }}>
+            <label htmlFor='mensagem' style={{ fontSize: '0px' }}>
               mensagem
             </label>
             <textarea
