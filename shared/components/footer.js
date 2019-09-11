@@ -1,12 +1,12 @@
 const Footer = () => (
-  <footer className='bg-gray h-56'>
+  <footer className='bg-gray h-48'>
     <div className='flex flex-col justify-center container h-full mx-auto'>
-      <div className='flex justify-center'>
+      {/* <div className='flex justify-center'>
         <div className='w-8 h-8 rounded-full bg-white m-4' />
         <div className='w-8 h-8 rounded-full bg-white m-4' />
         <div className='w-8 h-8 rounded-full bg-white m-4' />
         <div className='w-8 h-8 rounded-full bg-white m-4' />
-      </div>
+      </div> */}
       <p className='text-white text-center'>
         feito pelo
         <a

@@ -39,7 +39,7 @@ const Navbar = () => (
             Frentes
           </Link>
         </li>
-        <li className='px-4'>
+        {/* <li className='px-4'>
           <Link
             to='contato'
             spy={true}
@@ -51,7 +51,7 @@ const Navbar = () => (
           >
             Contato
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
     <style jsx>{`

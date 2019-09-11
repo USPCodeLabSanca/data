@@ -5,7 +5,7 @@ import Footer from '../shared/components/footer';
 import Jumbotron from '../components/home/jumbotron';
 import About from '../components/home/about';
 import Fronts from '../components/home/fronts';
-import Contact from '../components/home/contact';
+// import Contact from '../components/home/contact';
 
 const Home = () => (
   <React.Fragment>
@@ -15,7 +15,7 @@ const Home = () => (
       <Jumbotron />
       <About />
       <Fronts />
-      <Contact />
+      {/* <Contact /> */}
     </main>
     <Footer />
   </React.Fragment>
